@@ -1,0 +1,120 @@
+
+Documento del Analista:
+
+/-------------------------------------------------------------------------------------------------------------------------------/
+1º SEMANA [10/10/2023 - 17/10/2023]
+
+
+Mouzo Quiza, Raúl : raulmouzo : raul.mouzo : administrador
+NOTA: [5/5]
+
+	Aunque no siempre al mismo nivel de detalle, es el que ha estado en todas las partes de programación de nuestro código. 
+	Dividiendo las tareas entre 3, siempre intentando resolver los problemas que nos surgían. Responsable del correcto 
+	funcionamiento del grupo, gracias a la programación de reuniones entre todos.
+
+
+Fernández Valiño, Alberto : AlbertooFV : alberto.fernandezv : traductor
+NOTA: [5/5]
+
+	Principal encargado de la búsqueda de información para poder informarnos de que estamos haciendo en todo momento. Es la única 			
+	persona que ha usado Python previamente, por lo tanto, ha cumplido con su función de buscar los recursos online que ayuden al 	
+	equipo a completar de mejor manera su tarea, ya que ya lo sabía o le sonaba, entoncés con rapidez podía contestarnos. 
+
+
+Rego Criado, Adrian : Rego523 : adrian.rego : analista
+NOTA: [5/5]
+
+	Responsable del correcto funcionamiento del código respecto al objetivo a conseguir en esta primera semana. Ha estado 	
+	programando y búscando como afrontar algunas cosas de diseño respecto al wireframe elegido. Promobiendo ideas e información
+	de sobre como repartir tareas tras un análisis de las capacidades de cada uno.
+
+/-------------------------------------------------------------------------------------------------------------------------------/
+2º SEMANA [17/10/2023 - 24/10/2023]
+
+
+Mouzo Quiza, Raúl : raulmouzo : raul.mouzo : administrador
+NOTA: [5/5]
+
+	Durante esta semana dividió por igual las tareas a realizar, es cierto que ya contabamos con las ventanas de error hechas de
+	la semana pasada y esto facilito la entrega, pero nuestro modelo controlador-modelo-vista no estaba correcto. Tuvo que
+	organizarnos durante el último dia para poder realizar la entrega de forma correcta. Implementó la pantalla de carga y la
+	corrección propuesta por el profesor (De usar un botón para cerrar la aplicación) junto al analista.
+
+
+Fernández Valiño, Alberto : AlbertooFV : alberto.fernandezv : traductor
+NOTA: [5/5]
+
+	Ayudó a la reformación del código como a la implementación de la concurrencia en las funciones de entrada/salida. Propusó
+	diferentes ideas de como afrontar la carga de las funciones de concurrencia desde el punto de vista del usuario. Actualizó 
+	los diagramas para que concuerden con la concurrencia estableciada esta semana junto al analista. 
+
+
+Rego Criado, Adrian : Rego523 : adrian.rego : analista
+NOTA: [5/5]
+
+	Ayudó a la reformación del código como a la implementación de la concurrencia en las funciones de entrada/salida, además de
+	testear y comprobar que se cumplía para todos los casos la ejecución en hilos de la aplicación.  Implementó la pantalla de
+	carga y la corrección propuesta por el profesor (De usar un botón para cerrar la aplicación) junto al administrador. Actualizó 
+	los diagramas para que concuerden con la concurrencia estableciada esta semana junto al traductor.
+	
+/-------------------------------------------------------------------------------------------------------------------------------/
+3º SEMANA [24/10/2023 - 31/10/2023]
+
+Mouzo Quiza, Raúl : raulmouzo : raul.mouzo : administrador
+NOTA: [5/5]
+
+	Trabajó en la traduccion de la app, editando el codigo de Vista.py y cubriendo varios archivos .po
+	Para acabar con su trabajo de administrador hizo el documento de administrador.
+
+Fernández Valiño, Alberto : AlbertooFV : alberto.fernandezv : traductor
+NOTA: [5/5]
+
+	Trabajó en la traduccion de la app, editando el codigo de Vista.py y cubriendo varios archivos .po
+	También termino con su trabajo de traductor haciendo el documento de traductor.
+
+
+Rego Criado, Adrian : Rego523 : adrian.rego : analista
+NOTA: [5/5]
+
+	Trabajó en la traduccion de la app, editando el codigo de Vista.py y Controlador.py y cubriendo varios archivos .po
+	Además acabó con todo su trabajo de analista, acabando con el documento de analista.
+	
+/-------------------------------------------------------------------------------------------------------------------------------/
+Preguntas entrega final:
+
+a) ¿Qué ha sido lo mejor de la práctica?
+
+	Poder ver de forma visual e interactiva mediante una app lo que estamos programando. En otras asignaturas programamos y no
+	es tan satisfactorio cuando la práctica esta bien.
+
+b) ¿Qué fue lo peor?
+
+	Tener que reorganizar la relación entre Modelo-Vista-Controlador ya que lo teniamos mal organizado y fue mucho trabajo 		  
+	tenerlo que poner de forma correcta. 
+
+c) ¿Cuál fue el mejor momento de cada semana durante el trabajo del equipo?
+
+	La entrega.
+
+d) ¿Cuál ha sido el peor?
+
+	Al principio de cada semana, ya que no tenimos ni idea de que hacer.
+
+e) ¿Qué has aprendido?
+
+	He aprendido un poco de python ya que yo no tenía ni idea de usar este lenguaje. También el uso de Glade como herramienta
+	para desarrollar apps. También me ha venido bien revisar algo de concurrencia.
+
+f) ¿Qué necesitáis conservar -como equipo- para las próximas semanas?
+
+	La organización ya que en ningun momento hemos estado apurados para realizar la entrega.
+
+g) ¿Qué tenéis que mejorar -como equipo- para las próximas semanas?
+
+	En general pocas cosas, tal vez podríamos mejorar la comunicación y seguir mejor los roles en el equipo.
+
+h) ¿Cómo se relaciona ESTE contenido con otros del curso y con tu titulación? 
+	
+	El contenido se conecta directamente con ISD, en la cual también tenemos que hacer toda la implementación que hicimos pero  
+	sin tener en cuenta la interfaz de usuario. Las interfaces de usuario son una parte importante de la informatica, entonces 
+	consideramos que es util aprender conceptos en este ambito.

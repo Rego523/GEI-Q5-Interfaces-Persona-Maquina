@@ -1,0 +1,28 @@
+Documento del Traductor/Curador:
+
+/-------------------------------------------------------------------------------------------------------------------------------/
+Objetivos de Aprendizaje:
+
+    1.- Conocimiento de GTK: Entender y aplicar la biblioteca de GTK (GTK3 en este caso) para el desarrollo de una interfaz gráfica.
+    2.- Manejo de hilos en Python: Aprender a implementar la biblioteca de threads de Python para la gestión de tareas concurrentes en el programa.
+    3.- Uso de una API: Familiarizarse con la API de Cocktaildb para obtener información sobre cócteles y sus ingredientes.
+    4.- Diseño de la Interfaz de Usuario con Glade: Aprender a diseñar la interfaz de usuario visualmente utilizando Glade.
+    5.- Integración de Recursos Externos: Incorporar datos de Cocktaildb en la interfaz de usuario del programa.
+
+Recopilación de Recursos Online:
+
+    Recurso 1: Documentación de GTK
+        Enlace: https://www.gtk.org/docs/
+        Uso: La documentación de GTK proporciona información detallada sobre cómo crear interfaces gráficas, fundamental para el desarrollo del programa.
+
+    Recurso 2: Documentación de Threads en Python
+        Enlace: https://docs.python.org/3/library/threading.html
+        Uso: La documentación de Threads en Python es esencial para comprender y gestionar tareas concurrentes en el proyecto.
+
+    Recurso 3: API de Cocktaildb
+        Enlace: https://www.thecocktaildb.com/api.php
+        Uso: La API de Cocktaildb proporciona datos sobre cócteles e ingredientes, necesarios para la integración de información en el programa.
+
+    Recurso 4: Pequeña introducción a Glade para Diseño de Interfaces Gráficas
+        Enlace: https://help.gnome.org/users/glade/stable/getting-started.html.en
+        Uso: Esto es una introducción para aprender a utilizar Glade en el diseño visual de interfaces de usuario.

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo List</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <main class="main_container">
+            <section class="nav">
+                <div class="nav_container">
+
+                    <h1 class="nav_title">Tasks List</h1>
+
+                    <button id="openMenuButton" class="dropdown_menu" aria-label="Open menu" onclick="openMenu()">
+                        <img src="./assets/menu.svg" alt="menu icon" class="dropdown_icon">
+                    </button>
+                    <button id="closeMenuButton" class="dropdown_menu" aria-label="Close menu" onclick="closeMenu()">
+                        <img src="./assets/close.svg" alt="close menu icon" class="dropdown_icon">
+                    </button>
+
+                    <button id="addNewTask" class="filterbutton">
+                        Add new task
+                    </button>
+
+                    <select name="tasks" id="taskFilter" class="dropdown_filter">
+                        <optgroup label="Current Task filter">
+                          <option id="showAllTasks" value="Show All">Show all tasks</option>
+                          <option id="showActiveTasks" value="Show Active">Show active</option>
+                          <option id="showCompletedTasks" value="Show Completed">Show completed</option>
+                        </optgroup>
+                    </select>
+
+                    <button id="completeAllTasks" class="filterbutton">
+                        Complete all tasks
+                    </button>
+
+                    <button id="deleteCompletedTasks" class="filterbutton">
+                        Delete completed tasks
+                    </button>
+
+                    <ul class="dropdown" id="menu">
+                        <li class="dropdown_list">
+                            <button id="add_task_movile" class="dropdown_link">
+                                <img src="./assets/add_task.svg" alt="add new task" class="dropdown_icon_list">
+                                <span>Add new Task</span>
+                            </button>
+                        </li>
+                        <li class="dropdown_list">
+                            <button class="dropdown_link" onclick="updateTaskDisplay()">
+                                <img src="./assets/all_tasks.svg" alt="show all tasks" class="dropdown_icon_list">
+                                <span>Show all tasks</span>
+                            </button>
+                        </li>
+
+                        <li class="dropdown_list">
+                            <button class="dropdown_link" onclick="updateTaskDisplay('Show Active')">
+                                <img src="./assets/active_tasks.svg" alt="show active tasks" class="dropdown_icon_list">
+                                <span>Show active tasks</span>
+                            </button>
+                        </li>
+
+                        <li class="dropdown_list">
+                            <button class="dropdown_link" onclick="updateTaskDisplay('Show Completed')">
+                                <img src="./assets/completed_tasks.svg" alt="show completed tasks" class="dropdown_icon_list">
+                                <span>Show completed tasks</span>
+                            </button>
+                        </li>
+        
+                        <li class="dropdown_list" id="completeAllTasks2">
+                            <button class="dropdown_link">
+                                <img src="./assets/complete_all.svg" alt="complete all tasks" class="dropdown_icon_list">
+                                <span>Complete all tasks</span>
+                            </button>
+                        </li>
+
+                        <li class="dropdown_list" id="deleteCompletedTasks2">
+                            <button class="dropdown_link">
+                                <img src="./assets/delete_tasks.svg" alt="delete comeplted tasks" class="dropdown_icon_list">
+                                <span>Delete completed tasks</span>
+                            </button>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+
+            <table class="table" aria-labelledby="tableTitle">
+                <caption id="tableTitle">Task List</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Done</th>
+                        <th scope="col">Task</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+            
+                </tbody>
+            </table>
+            
+            <div>
+                <h2 id="activeTasksCount" class="active_tasks" aria-live="polite" tabindex="0">Active Tasks: 3</h2>
+            </div>
+        </main>
+        <script src="tasks.js"></script>
+    </body>
+</html>

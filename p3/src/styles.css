@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+
+.nav_container {
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-areas: "title img";
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.nav_title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1d;
+    grid-area: title;
+}
+
+
+.dropdown_menu {
+    grid-area: img;
+    background-color: #00000000;
+    position: relative;
+    border: 0px;
+    z-index: 10;
+    transition: background-color 1s ease; 
+}
+
+.dropdown_icon {
+    width: 35px;
+    display: block;
+}
+
+.dropdown_icon_list {
+    width: 20px;
+    display: block;
+    color: #ffffff;
+}
+
+.dropdown {
+    position: absolute;
+    background-color: #000;
+    width: 75%;
+    max-width: 300px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
+    overflow-y: auto;
+}
+
+.table {
+    width: 100%;
+    caption-side: bottom;
+    font-size: 16px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+thead tr {
+    border: 1px solid lightgrey;
+}
+
+tr {
+    border: 1px solid lightgrey;
+    color: black;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+thead {
+    height: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+.checkbox {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.actions_section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.action_button {
+    font-weight: 500;
+    border: 0;
+    cursor: pointer;
+}
+
+.table_text {
+    font-size: 16px;
+}
+
+.dropdown_list {
+    list-style: none;
+}
+
+.dropdown_link {
+    color: #b8bbbf;
+    padding: 1em 0.7em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    position: relative;
+    background-color: var(--bg, transparent);
+    border-radius: 6px;
+    border: 0;
+}
+
+.dropdown_li{
+    width: 85%;
+    list-style: none;
+    margin-left: auto;
+}
+
+.description {
+    display: none;
+}
+
+.description-row {
+    display: none;
+}
+
+.table tr.clicked + .description-row {
+    display: table-row;
+}
+
+.active_tasks {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px; 
+}
+
+.filterbutton {
+    display: none;
+}
+
+.dropdown_filter {
+    display: none;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    width: 75%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: #000; 
+    transition: transform 0.5s ease; 
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .nav_container {
+        width: 85%;; 
+    }
+
+    .table {
+        max-width: 90%; 
+        margin-top: 10px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .active_tasks {
+        text-align: center;
+        margin-top: 15px; 
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .dropdown_menu {
+        display: none;
+    }
+
+    .nav_container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 70px;
+        justify-content: start;
+        gap: 10px;
+    }
+
+    .nav_container > *:not(:first-child) {
+        margin-left: 40px;
+    }
+
+    .filterbutton {
+        border-radius: 0.375rem;
+        font-size: 0.875rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        background-color: #0a0a0a;
+        color: #FFFFFF;
+        transition: background-color 0.2s ease, color 0.2s ease;
+        height: 45px;
+        padding: 0.5rem 1rem; 
+        border: 0px;
+        font-size: 18px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .filterbutton:hover {
+          background-color: rgba(68, 68, 68, 0.9); 
+      }
+
+      .dropdown_filter {
+        border-radius: 0.375rem;
+        font-size: 0.875rem; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Familia de fuentes */
+        font-weight: 500; 
+        background-color: #0a0a0a; 
+        color: #FFFFFF;
+        height: 45px; 
+        width: 190px;
+        padding: 0.5rem 1rem; 
+        border: 0px;
+        font-size: 18px; 
+        cursor: pointer; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    }
+    
+    .dropdown_filter:hover {
+        background-color: rgba(68, 68, 68, 0.9); 
+    }
+} 

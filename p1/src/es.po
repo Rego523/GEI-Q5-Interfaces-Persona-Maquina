@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-29 23:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Vista.py:52
+msgid "Search cocktails"
+msgstr "Buscar cócteles"
+
+#: Vista.py:56
+msgid "Search ingredients"
+msgstr "Buscar Ingredientes"
+
+#: Vista.py:61 Vista.py:103
+msgid "Return to home screen"
+msgstr "Volver a la pantalla de inicio"
+
+#: Vista.py:65
+msgid "Search for the name of a cocktail..."
+msgstr "Busca el nombre de un cóctel..."
+
+#: Vista.py:69
+msgid "Alcoholic drinks"
+msgstr "Bebidas alcohólicas"
+
+#: Vista.py:73
+msgid "Non-alcoholic drinks"
+msgstr "Bebidas no alcohólicas"
+
+#: Vista.py:77
+msgid "Filter by alcohol"
+msgstr "Filtrar por alcohol"
+
+#: Vista.py:81
+msgid "Discover"
+msgstr "Descubrir"
+
+#: Vista.py:85
+msgid "Show random cocktail"
+msgstr "Mostrar cóctel aleatorio"
+
+#: Vista.py:90
+msgid "Return to main search cocktails screen"
+msgstr "Volver a la pantalla principal de búsqueda de cócteles"
+
+#: Vista.py:94
+msgid "Recipe"
+msgstr "Receta"
+
+#: Vista.py:98
+msgid "Ingredients"
+msgstr "Ingredientes"
+
+#: Vista.py:107
+msgid "Search for the name of an ingredient..."
+msgstr "Busca el nombre de un ingrediente..."
+
+#: Vista.py:111
+msgid "Return to main search ingredient screen"
+msgstr "Volver a la pantalla principal de búsqueda de ingredientes"
+
+#: Vista.py:171
+msgid "Cocktails that use: "
+msgstr "Cócteles que utilizan: "
+
+#: Vista.py:200
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: Vista.py:204
+msgid "Close app"
+msgstr "Cerrar app"
+
+#: Controlador.py:41 Controlador.py:76 Controlador.py:103 Controlador.py:198
+msgid "ERROR: No internet connection"
+msgstr "ERROR: No hay conexión a Internet"
+
+#: Controlador.py:78 Controlador.py:205
+msgid "ERROR: No results found for your search"
+msgstr "ERROR: No se encontraron resultados para su búsqueda"
+
+#: Controlador.py:201
+msgid "ERROR: No results found with alcoholic filter"
+msgstr "ERROR: No se encontraron resultados con filtro de alcohol"
+
+#: Controlador.py:203
+msgid "ERROR: No results found with non-alcoholic filter"
+msgstr "ERROR: No se encontraron resultados con filtro sin alcohol"
+
+#: Controlador.py:214 Controlador.py:224
+msgid "ERROR: Search field is empty, enter a text to search"
+msgstr "ERROR: El campo de búsqueda está vacío, ingrese un texto para buscar"

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo List</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="form_styles.css">
+    </head>
+    <body>
+
+    <header>
+        <div class="main_title_container">
+            <h1 class="main_title_text" aria-label="Create a new task">Create a new task</h1>
+        </div>
+    </header>
+
+    <main class="main_container">
+        <form class="form">
+            <div class="input-section">
+                <label for="taskName" class="label_name">
+                    Task Name
+                </label>
+                <input
+                    class="input"
+                    id="taskName"
+                    type="text"
+                >
+            </div>
+            <div class="input-section">
+                <label for="taskDescription" class="label_name">
+                    Task Description
+                </label>
+                <input
+                    class="input"
+                    id="taskDescription"
+                    type="text"
+                >
+            </div>
+            <div class="input-section">
+                <label for="dueDate" class="label_name">
+                    Task Date
+                </label>
+                <input
+                    class="input"
+                    id="dueDate"
+                    type="date"
+                >
+            </div>
+            <button class="addButton">
+                Create Task
+            </button>
+        </form>
+    </main>
+
+    <script src="tasks.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+Abrir la terminal e ir a la ruta de:
+
+    ipm-2324-p1-grupo_27-1/src 
+
+
+En ella  ejecutar uno de los siguientes comandos dependiendo de en que idioma quieres la app.
+
+Español:
+LC_ALL=es_ES.UTF-8 LANGUAGE=es_ES.UTF-8 python3 CocktailApp.py 
+
+Ingles:
+LC_ALL=en_GB.UTF-8 LANGUAGE=en_GB.UTF-8 python3 CocktailApp.py
+
+Aleman:
+LC_ALL=de_DE.UTF-8 LANGUAGE=de_DE.UTF-8 python3 CocktailApp.py
